@@ -53,8 +53,8 @@ function toSelect(){
  // define the circle
  // (we need this info for hit-testing later)
   var radius = 50;
-  var cx = Math.random() * (canvas.width-2*radius);
-  var cy = Math.random() * (canvas.height-2*radius);
+  var cx = 2*radius + Math.random() * (canvas.width*0.8);
+  var cy = 2*radius + Math.random() * (canvas.height*0.8);
   draw ();
 
 
@@ -63,8 +63,8 @@ function toSelect(){
  function draw () {
  context.beginPath();
 
- cx = Math.random() * (canvas.width*0.8);
- cy = Math.random() * (canvas.height*0.8);
+ cx = 2*radius +Math.random() * (canvas.width*0.8);
+ cy = 2*radius +Math.random() * (canvas.height*0.8);
  context.arc(cx, cy, radius, 0, 2 * Math.PI);
  context.fillStyle = "white";
  context.fill();
