@@ -1,0 +1,85 @@
+
+
+ body {
+     background: black;
+    /* background-size: cover;*/
+
+}
+
+
+
+
+p {
+  color: gray;
+
+  font-size: 3em;
+}
+
+select {
+  font-size: 1em;
+  font-family: fantasy;
+  height: 1.2em;
+  width: 6em;
+}
+
+button {
+  font-size: 0.6em;
+  font-family: fantasy;
+  border-radius:10px 10px 10px 10px;
+}
+
+.projects-button {
+  color: white;
+}
+
+
+  #canvasContainer{
+    position: relative;
+    margin : 0px;
+/*    width : 100%;
+    height : 100%;    */
+    background: black;
+    display: none;
+}
+
+
+#instruction, #selectPage{
+ background-position: center 0;
+ font-family: 'Source Sans Pro', sans-serif;;
+ position: relative;
+ top: 50%;
+ left: 25%;
+}
+
+#instruction{
+  color:white;
+
+}
+
+
+#selectPage{
+  display:none;
+}
+
+
+/*drawing the star element */
+.star {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: white;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: white;}
+  to {background-color: yellow;}
