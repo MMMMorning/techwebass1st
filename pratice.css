@@ -1,18 +1,19 @@
 
+html, body {
+  margin: 0;
+  padding: 0;
+  background: rgb(5,5,5);
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 30px; }
+
 
  body {
      background: black;
-    /* background-size: cover;*/
-
 }
-
-
 
 
 p {
   color: gray;
-
-  font-size: 3em;
 }
 
 select {
@@ -28,18 +29,23 @@ button {
   border-radius:10px 10px 10px 10px;
 }
 
-.projects-button {
-  color: white;
-}
 
+
+  #canvasPlace {
+    display: none;
+  }
+
+  #backB{
+    position: relative;
+    margin : 0px;
+    width : 10%;
+    left: 40%
+  }
 
   #canvasContainer{
     position: relative;
     margin : 0px;
-/*    width : 100%;
-    height : 100%;    */
     background: black;
-    display: none;
 }
 
 
@@ -53,7 +59,6 @@ button {
 
 #instruction{
   color:white;
-
 }
 
 
@@ -66,20 +71,20 @@ button {
 .star {
     width: 100px;
     height: 100px;
-    background-color: yellow;
+    background-color: rgb(226,226,226);
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 2s;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     from {background-color: white;}
-    to {background-color: yellow;}
+    to {background-color: gray;}
 }
 
 /* Standard syntax */
 @keyframes example {
   from {background-color: white;}
-  to {background-color: yellow;}
+  to {background-color: gray;}
