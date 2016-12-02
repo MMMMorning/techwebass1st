@@ -134,7 +134,7 @@
      context.textBaseline = "top";
      context.fillStyle = 'white';
      //drawHeart(life);
-     context.fillText("○ caught: " + caughtCir + "        ||        ♥ left： " + drawHeart(life)  , 0.4*canvas.width, 25);
+     context.fillText("○ caught: " + caughtCir + "        ||        ♥ left： " + drawHeart(life)  , 0.25*canvas.width, 25);
  }
 
 
