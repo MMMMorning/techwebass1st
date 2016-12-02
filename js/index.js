@@ -50,8 +50,9 @@ function toSelect(){
      traget.style.display="none";
 
      allColor('selectC',colorList);
-     alert(colorList);
+     //alert(colorList);
      draw();
+     writeMessage(canvas, "");
    }
  }
 
