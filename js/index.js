@@ -55,12 +55,22 @@
     var traget=document.getElementById("instruction");
     traget.style.display="block";
 
-    //restart means number of caughtCir should back to 0 and life back to 5
+    //restart means initialize everye lements:
+    //stop the interval and clean up the canvas
+    clearInterval(interval);
+    context.clearRect(0, 30, canvas.width, canvas.height);
+
+    //initialize all variables
     caughtCir=0;
     life = 5;
     time =3000;
-
     colorList = [];
+    numOfCir =1;
+
+
+
+
+
   }
 
 
