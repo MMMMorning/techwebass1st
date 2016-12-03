@@ -58,6 +58,7 @@
     //restart means number of caughtCir should back to 0 and life back to 5
     caughtCir=0;
     life = 5;
+    time =3000;
 
     colorList = [];
   }
