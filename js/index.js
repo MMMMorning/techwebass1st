@@ -66,11 +66,6 @@
     time =3000;
     colorList = [];
     numOfCir =1;
-
-
-
-
-
   }
 
 
@@ -164,25 +159,45 @@ var interval;
 //the more circles are caught, the more and faster there will be:
  function level(){
    switch(caughtCir){
+     case 5:
+       numOfCir = 2;
+       time = 2600;
+       break;
      case 10:
        numOfCir = 3;
        time = 2300;
        break;
+     case 15:
+       numOfCir = 4;
+       time = 2000;
+       break;
      case 20:
        numOfCir = 5;
-       time = 1800;
+       time = 1700;
        break;
-     case 30:
+     case 25:
+       numOfCir = 6;
+       time = 1400;
+       break;
+     case 35:
        numOfCir = 7;
-       time = 1200;
+       time = 1100;
        break;
-    case 40:
-       numOfCir = 12;
-       time = 700;
+    case 45:
+       numOfCir = 8;
+       time = 900;
        break;
-    case 40:
+    case 50:
+       numOfCir = 9;
+       time = 800;
+       break;
+    case 60:
+       numOfCir = 13;
+       time = 600;
+       break;
+    case 70:
        numOfCir = 16;
-       time = 350;
+       time = 400;
        break;
    }
 }
