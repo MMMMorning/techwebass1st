@@ -18,34 +18,20 @@
 
     <!--here is the first page seen by users, Which is an instructon about the game-->
   <div id="instruction">
+   <h1>Catch O</h1>
 
     <!-- the first sub-div of instruction: give the instruction of game-->
    <div id="inst1">
-     <h1>Catch <ol>
-
-     </ol> </h1>
-     <p> <strong>HOW TO PLAY: </strong> Click the <font size=50px> O </font>  before it disapears. keeping forcus on O with the color you chose.</p>
+     <p> <strong>HOW TO PLAY: </p>
+     <p></strong> Click the <font size=50px> O </font>  before it disapears. keeping forcus on O with the color you chose.</p>
      <p>first try to reach 50 of them  o(^▽^)o</p>
    </div>
 
      <!-- the second sub-div of instruction: let player to set the color of circles, and a start button-->
    <div id="inst2">
 
-     <p id="guide">COLOR SELECTOR
-       <span id="colorRay">
-         <font color="red">O</font>
-         <font color="deeppink">O</font>
-         <font color="darkviolet">O</font>
-         <font color="aqua">O</font>
-         <font color="springgreen">O</font>
-         <font color="yellow">O</font>
-         <font color="peru">O</font>
-         <font color="lightgray">O</font>
-       </span>
-     </p>
-
      <p><select id="selectC" >
-       <option disabled="disabled" selected="selected" value="none">select color</option>
+       <option disabled="disabled" selected="selected" value="none">COLOR SELECTOR</option>
   	   <option style="color:red" value="red">Red</option>
        <option style="color:deeppink" value="deeppink">Pink</option>
        <option style="color:darkviolet" value="darkviolet">Purple</option>
@@ -54,8 +40,17 @@
   	   <option style="color:yellow" value="yellow">Yellow</option>
        <option style="color:peru" value="peru">Brown</option>
        <option style="color:lightgray" value="lightgray">Gray</option>
-
-     </select></p>
+     </select>
+     <span id="colorRay">
+       <font color="red">O</font>
+       <font color="deeppink">O</font>
+       <font color="darkviolet">O</font>
+       <font color="aqua">O</font>
+       <font color="springgreen">O</font>
+       <font color="yellow">O</font>
+       <font color="peru">O</font>
+       <font color="lightgray">O</font>
+     </span></p>
 
      <p><button  type="button" onclick="gameStart()" id="startB">START    <i class="fa fa-caret-right"></i></button></p>
    </div>

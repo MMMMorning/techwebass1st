@@ -17,7 +17,7 @@ p {
 
 select {
   display: inline-block;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 10px;
   font-family: 'Architects Daughter', cursive;
   height: 1.2em;
@@ -39,6 +39,9 @@ select {
 #inst1{
   display: inline-block;
   line-height: 30px;
+  background: rgba(15, 15, 15, 1);
+  border-radius:25px;
+  border: 30px;
 }
 
 #inst2{
@@ -46,8 +49,7 @@ select {
 }
 
 #colorRay{
-  margin-left: 0%;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 
