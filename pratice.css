@@ -45,6 +45,11 @@ select {
    color:white;
 }
 
+#colorRay{
+  margin-left: 0%;
+  opacity: 0.5;
+}
+
 
 
 /* style for buttons  */
