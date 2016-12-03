@@ -4,48 +4,57 @@
 
   <!-- name of the game -->
   <meta charset="utf-8">
-  <title>Catch the BUBBLE</title>
+  <title>Catch ○</title>
 
   <link href="pratice.css" rel="stylesheet" type="text/css" >
   <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- link to Jquery   -->
-
 
 </head>
+
+
+
 <body>
 
-<!--here is the first page seen by users, Which is an instructon about the game-->
-<div id="instruction">
-<div id="inst1"><h1>Catch ○ </h1>
-<p> <strong>HOW TO PLAY: </strong> Click the <font size=50px> ○ </font>  before it disapears</p>
-<p>keeping forcus on the ○  with color you chose</p></div>
+    <!--here is the first page seen by users, Which is an instructon about the game-->
+  <div id="instruction">
 
-  <div id="inst2"><p id="guide">SELECT A COLOR FOR YOUR BUBBLE: </p>
+    <!-- the first sub-div of instruction: give the instruction of game-->
+   <div id="inst1">
+     <h1>Catch ○ </h1>
+     <p> <strong>HOW TO PLAY: </strong> Click the <font size=50px> ○ </font>  before it disapears</p>
+     <p>keeping forcus on the ○  with color you chose and first try to reach 50 of them  o(^▽^)o</p>
+   </div>
 
-  <p><select id="selectC" >
-  <option disabled="disabled" selected="selected" value="none">select color</option>
-	<option style="color:red" value="red">Red</option>
-	<option style="color:lightblue" value="lightblue">Blue</option>
-	<option style="color:lightgreen" value="lightgreen">Green</option>
-	<option style="color:yellow" value="yellow">Yellow</option>
-  <option style="color:gray" value="gray">Gray</option>
-  <option style="color:purple" value="purple">Purple</option>
-  <option style="color:pink" value="pink">Pink</option>
-  <option style="color:brown" value="brown">Brown</option>
-</select></p>
+     <!-- the second sub-div of instruction: let player to set the color of circles, and a start button-->
+   <div id="inst2">
+     <p id="guide">SELECT A COLOR FOR YOUR BUBBLE: </p>
 
-  <p><button  type="button" onclick="gameStart()" id="startB">START    <i class="fa fa-caret-right"></i></button></p>
-</div>
-</div>
+     <p><select id="selectC" >
+       <option disabled="disabled" selected="selected" value="none">select color</option>
+  	   <option style="color:red" value="red">Red</option>
+  	   <option style="color:aqua" value="aqua">Blue</option>
+       <option style="color:springgreen" value="springgreen">Green</option>
+  	   <option style="color:yellow" value="yellow">Yellow</option>
+       <option style="color:lightgray" value="lightgray">Gray</option>
+       <option style="color:darkviolet" value="darkviolet">Purple</option>
+       <option style="color:deeppink" value="deeppink">Pink</option>
+       <option style="color:peru" value="peru">Brown</option>
+     </select></p>
 
-<!--     Place for canvas  -->
-<div id="canvasPlace"><canvas id="canvasContainer"></canvas>
-<p><button id="backB" onclick="backSelect()"><i class="fa fa-caret-left"></i>  RESTAR</button></p></div>
+     <p><button  type="button" onclick="gameStart()" id="startB">START    <i class="fa fa-caret-right"></i></button></p>
+   </div>
+  </div>
+
+  <!--    Place for canvas  -->
+  <div id="canvasPlace">
+    <canvas id="canvasContainer"></canvas>
+    <p><button id="backB" onclick="backSelect()"><i class="fa fa-caret-left"></i>  RESTAR</button></p>
+  </div>
 
 
 
-  <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 </html>

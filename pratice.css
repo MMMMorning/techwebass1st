@@ -1,16 +1,15 @@
-
+/*  the style of all elements in the body and html  */
 html, body {
   margin: 0;
   padding: 0;
   background: rgb(5,5,5);
-  font-family: 'Architects Daughter', cursive, sans-serif;
+  font-family: 'Architects Daughter', cursive, sans-serif; /* a online font style*/
   font-size: 30px; }
 
 
  body {
      background: black;
 }
-
 
 p {
   color: gray;
@@ -22,43 +21,13 @@ select {
   line-height: 10px;
   font-family: 'Architects Daughter', cursive;
   height: 1.2em;
-  width: 6em;
-}
-
-button {
-    font-size: 30px;
-    font-family: fantasy;
-
-    display: inline-block;
-    background: black;
-    border:none;
-
-    text-decoration: none;
-    color: #f9f6f2;
-    line-height: 50px;
-    cursor: pointer;
-    text-align: center;
-
+  background: black;
+  color: white;
+  border: none;
 }
 
 
-
-  #canvasPlace {
-    display: none;
-  }
-
-  #backB{
-    position: relative;
-    margin-left: 5%;
-  }
-
-  #canvasContainer{
-    position: relative;
-    margin : 0px;
-    background: black;
-}
-
-
+/*  style for instruction part*/
 #instruction{
   background-position: center 0;
   font-family: 'Architects Daughter', cursive;
@@ -70,35 +39,42 @@ button {
 #inst1{
   display: inline-block;
   line-height: 30px;
-
-
 }
 
 #inst2{
    color:white;
-
-
 }
 
 
 
-/*drawing the star element */
-.star {
+/* style for buttons  */
+button {
+    font-size: 30px;
+    font-family: fantasy;
+    display: inline-block;
+    background: black;
+    border:none;
 
-    background-color: rgb(226,226,226);
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 2s;
+    text-decoration: none;
+    color: #f9f6f2;
+    line-height: 50px;
+    cursor: pointer;
+    text-align: center;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    from {background-color: white;}
-    to {background-color: gray;}
+#backB{
+  position: relative;
+  margin-left: 5%;
 }
 
-/* Standard syntax */
-@keyframes example {
-  from {background-color: white;}
-  to {background-color: gray;}
+
+/* style for canvas part  */
+  #canvasPlace {
+    display: none;
+  }
+
+  #canvasContainer{
+    position: relative;
+    margin : 0px;
+    background: black;
+}
